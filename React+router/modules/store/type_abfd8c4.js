@@ -1,0 +1,1 @@
+define("modules/store/type.jsx",function(e,t,s){"use strict";var o=e("modules/action/type.jsx"),n=e("modules/conf.jsx");s.exports=Reflux.createStore({listenables:[o],onChangeType:function(e){var t=[];n.DATABASE.forEach(function(s){s.type===e&&t.push(s)}),this.trigger(t)}})});

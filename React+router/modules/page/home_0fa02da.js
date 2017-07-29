@@ -1,0 +1,1 @@
+define("modules/page/home.jsx",function(e,t,s){"use strict";var a=e("modules/mixins/render.jsx"),n=e("modules/conf.jsx");s.exports=React.createClass({displayName:"exports",mixins:[a],getInitialState:function(){return{list:n.DATABASE}},render:function(){return React.createElement("div",{className:"inner"},React.createElement("ul",{className:"clearfix"},this.createList()))}})});

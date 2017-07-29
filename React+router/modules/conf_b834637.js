@@ -1,0 +1,1 @@
+define("modules/conf.jsx",function(e,s,n){"use strict";n.exports={BANNER_NUM:2,ITEM_NUM:33,DATABASE:[]}});
